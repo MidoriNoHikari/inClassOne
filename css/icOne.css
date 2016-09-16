@@ -1,3 +1,43 @@
 body, html {
-  font-size: 12px;
+  font-size:14px;
+}
+
+.basic-paragraph {
+  font-size: 200%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#ichi {
+  color: #1155BB;
+  text-align: left;
+}
+
+#ni {
+  text-align: right;
+}
+
+#san {
+  color: #990880;
+}
+
+footer {
+ font-size: 1.2em;
+}
+
+.text-wrap {
+  float: right;
+  margin: 10px 10px 10px 10px;
+}
+
+fieldset > label {
+  color: red;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #00FFFF;
+}
+
+form {
+  position: relative;
 }
